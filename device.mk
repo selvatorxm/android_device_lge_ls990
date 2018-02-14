@@ -41,10 +41,8 @@ PRODUCT_PACKAGES += \
 
 # NFC packages
 PRODUCT_PACKAGES += \
-    nfc.msm8974 \
-    libnfc \
-    libnfc_jni \
-    Nfc
+    nfc_nci.msm8974 \
+    NfcNci
 
 # Get BCMDHD configs
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
